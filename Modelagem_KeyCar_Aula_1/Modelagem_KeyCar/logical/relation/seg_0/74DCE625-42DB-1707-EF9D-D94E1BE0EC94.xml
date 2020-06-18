@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TEM" directorySegmentName="seg_0" id="74DCE625-42DB-1707-EF9D-D94E1BE0EC94">
+<createdBy>wallace</createdBy>
+<createdTime>2020-06-18 03:23:56 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<engineerTo>
+<item key="621AD807-B0BA-FE1F-E1DA-3262FB994D50" value="true"/>
+</engineerTo>
+<sourcePk>09E523EA-AED3-D1ED-6DBD-64EAF4C6577B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9F4F0E92-C563-CE56-CAE3-6EFA1A101300</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3CB9C5CF-2ECE-1BBF-50C8-B93F48144396</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,2 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.logical.LogicalDesign/>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="04DF5E7C-4BD4-47C3-9874-915DC85B15C0" name="CLIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="969BB326-B234-D330-C683-2BC1D7F57A7C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="9F4F0E92-C563-CE56-CAE3-6EFA1A101300" name="FORNECEDOR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="969BB326-B234-D330-C683-2BC1D7F57A7C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="3CB9C5CF-2ECE-1BBF-50C8-B93F48144396" name="PRODUTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="969BB326-B234-D330-C683-2BC1D7F57A7C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="74DCE625-42DB-1707-EF9D-D94E1BE0EC94" name="TEM" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="969BB326-B234-D330-C683-2BC1D7F57A7C" propertySourceId="9F4F0E92-C563-CE56-CAE3-6EFA1A101300" propertyTargetId="3CB9C5CF-2ECE-1BBF-50C8-B93F48144396"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
