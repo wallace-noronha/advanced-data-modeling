@@ -4,7 +4,7 @@
 <createdTime>2020-06-18 03:09:01 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
 <engineerTo>
-<item key="621AD807-B0BA-FE1F-E1DA-3262FB994D50" value="true"/>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,26 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="9D5BDBAC-1C5A-9E12-11DF-DF9782CEFE90">
+<createdBy>wallace</createdBy>
+<createdTime>2020-06-19 01:06:36 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<engineerTo>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="NOME" id="D0332895-7222-61F8-9EB0-67A98F9CA744">
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-18 03:09:39 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
 <engineerTo>
-<item key="621AD807-B0BA-FE1F-E1DA-3262FB994D50" value="true"/>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,7 +48,7 @@
 <createdTime>2020-06-18 03:09:57 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
 <engineerTo>
-<item key="621AD807-B0BA-FE1F-E1DA-3262FB994D50" value="true"/>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -48,7 +62,7 @@
 <createdTime>2020-06-18 03:21:59 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
 <engineerTo>
-<item key="621AD807-B0BA-FE1F-E1DA-3262FB994D50" value="true"/>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -62,7 +76,7 @@
 <createdTime>2020-06-18 03:22:03 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
 <engineerTo>
-<item key="621AD807-B0BA-FE1F-E1DA-3262FB994D50" value="true"/>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,7 +90,7 @@
 <createdTime>2020-06-18 03:22:07 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
 <engineerTo>
-<item key="621AD807-B0BA-FE1F-E1DA-3262FB994D50" value="true"/>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -90,7 +104,7 @@
 <createdTime>2020-06-18 03:22:20 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
 <engineerTo>
-<item key="621AD807-B0BA-FE1F-E1DA-3262FB994D50" value="true"/>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -104,7 +118,7 @@
 <createdTime>2020-06-18 03:22:24 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
 <engineerTo>
-<item key="621AD807-B0BA-FE1F-E1DA-3262FB994D50" value="true"/>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -113,5 +127,34 @@
 <dataTypePrecision>9</dataTypePrecision>
 <ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CODIGO1" id="4FDA9437-2A2A-DB9C-EA83-15995F530A14">
+<createdBy>wallace</createdBy>
+<createdTime>2020-06-19 00:56:39 UTC</createdTime>
+<generatorID>3890AE3D-FE89-3A68-E748-7CBFC2506576</generatorID>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<engineerTo>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
+</engineerTo>
+<referedAttribute>D3A04F28-8D5E-8565-24F7-7D7E2CEC2F84</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ECF56A95-ECB8-5753-13A7-D553BEC2590E" name="CLIENTE PK">
+<createdBy>wallace</createdBy>
+<createdTime>2020-06-19 00:56:39 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<engineerTo>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FDA9437-2A2A-DB9C-EA83-15995F530A14</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

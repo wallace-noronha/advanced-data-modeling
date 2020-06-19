@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VENDA" directorySegmentName="seg_0" id="3890AE3D-FE89-3A68-E748-7CBFC2506576">
+<createdBy>wallace</createdBy>
+<createdTime>2020-06-19 00:56:39 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<engineerTo>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
+</engineerTo>
+<sourcePk>15A68E1B-CB76-02AC-542A-8B6C2BC32EE6</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>228AF45D-71F1-86DE-559C-685B814CC511</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>04DF5E7C-4BD4-47C3-9874-915DC85B15C0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="PRECO" id="17AAACCF-DB5B-F518-A687-808BB3FB99F8">
+<createdBy>wallace</createdBy>
+<createdTime>2020-06-19 00:56:53 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<engineerTo>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="DATA_DE_VENDA" id="7EA7C4F7-24A4-D4C2-F22B-897F893365BE">
+<createdBy>wallace</createdBy>
+<createdTime>2020-06-19 00:56:59 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<engineerTo>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="FORMA_DE_PAGAMENTO" id="293D24C9-83BA-E735-B494-A5985B597D22">
+<createdBy>wallace</createdBy>
+<createdTime>2020-06-19 00:57:14 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<engineerTo>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

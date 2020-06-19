@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3CB9C5CF-2ECE-1BBF-50C8-B93F48144396" name="PECA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="228AF45D-71F1-86DE-559C-685B814CC511" name="CARRO">
 <createdBy>wallace</createdBy>
-<createdTime>2020-06-18 03:09:12 UTC</createdTime>
+<createdTime>2020-06-18 23:35:40 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
 <engineerTo>
 <item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
@@ -15,64 +15,65 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CODIGO" id="BC49BF81-8B13-085A-4DBB-468ED7AB9C42">
+<Attribute name="CODIGO" id="15A0C4E7-1C4C-8C0D-24A0-7E7A8E48DD05">
 <createdBy>wallace</createdBy>
-<createdTime>2020-06-18 03:11:18 UTC</createdTime>
-<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NOME" id="56A68F89-BFD1-2A75-AD45-861C016E40E0">
-<createdBy>wallace</createdBy>
-<createdTime>2020-06-18 03:10:58 UTC</createdTime>
+<createdTime>2020-06-18 23:36:12 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
 <engineerTo>
 <item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="VALOR" id="8B6EF076-BD94-E66F-2B7B-72EA21A9EA36">
-<createdBy>wallace</createdBy>
-<createdTime>2020-06-18 23:25:04 UTC</createdTime>
-<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ESTOQUE" id="16657DD7-7E49-5768-D7A0-B5C9B376264B">
+<Attribute name="MARCA" id="BCCCB187-C1E3-8489-3F65-D1FAECE65D49">
 <createdBy>wallace</createdBy>
-<createdTime>2020-06-18 23:25:44 UTC</createdTime>
+<createdTime>2020-06-18 23:36:17 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
 <engineerTo>
 <item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CODIGO1" id="B7D7F040-5166-DC8C-0586-84598C94A3D6">
+<Attribute name="MODELO" id="BB8B89D1-FB9F-09C1-9361-94696F39982A">
 <createdBy>wallace</createdBy>
-<createdTime>2020-06-18 23:43:32 UTC</createdTime>
-<generatorID>53FD0C5C-D292-360F-8AF7-30244559C658</generatorID>
+<createdTime>2020-06-18 23:36:28 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<engineerTo>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRICAO" id="584C0ADA-9BBB-6B54-39E5-5B470EDD5FB0">
+<createdBy>wallace</createdBy>
+<createdTime>2020-06-18 23:36:41 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<engineerTo>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALOR" id="F75BBC7E-61AA-C340-3477-1C201FD3EE49">
+<createdBy>wallace</createdBy>
+<createdTime>2020-06-18 23:36:45 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<engineerTo>
+<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO1" id="D3A04F28-8D5E-8565-24F7-7D7E2CEC2F84">
+<createdBy>wallace</createdBy>
+<createdTime>2020-06-19 00:36:56 UTC</createdTime>
+<generatorID>92E6B712-5C0C-3710-3A29-68626A663427</generatorID>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
 <engineerTo>
 <item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
@@ -86,17 +87,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9EC065D7-E4A2-B774-F6E5-3BF4E10975F3" name="PRODUTO PK">
+<identifier id="15A68E1B-CB76-02AC-542A-8B6C2BC32EE6" name="CARRO PK">
 <createdBy>wallace</createdBy>
-<createdTime>2020-06-18 03:11:50 UTC</createdTime>
+<createdTime>2020-06-19 00:36:56 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
 <engineerTo>
 <item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>BC49BF81-8B13-085A-4DBB-468ED7AB9C42</attributeRef>
-<attributeRef>B7D7F040-5166-DC8C-0586-84598C94A3D6</attributeRef>
+<attributeRef>D3A04F28-8D5E-8565-24F7-7D7E2CEC2F84</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
