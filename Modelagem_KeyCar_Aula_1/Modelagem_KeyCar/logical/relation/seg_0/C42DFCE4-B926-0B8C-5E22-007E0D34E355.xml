@@ -1,11 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VENDAv1" directorySegmentName="seg_0" id="C42DFCE4-B926-0B8C-5E22-007E0D34E355">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VENDAv2" directorySegmentName="seg_0" id="C42DFCE4-B926-0B8C-5E22-007E0D34E355">
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-19 00:51:35 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
-</engineerTo>
+<sourcePk>ECF56A95-ECB8-5753-13A7-D553BEC2590E</sourcePk>
 <identifying>true</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
@@ -20,9 +18,6 @@
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-19 00:52:12 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,9 +28,6 @@
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-19 00:52:15 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,9 +38,6 @@
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-19 00:52:18 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

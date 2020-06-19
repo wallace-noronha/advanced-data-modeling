@@ -3,9 +3,6 @@
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-18 03:09:12 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-18 03:11:18 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -32,9 +26,6 @@
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-18 03:10:58 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,9 +37,6 @@
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-18 23:25:04 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,9 +47,6 @@
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-18 23:25:44 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -74,10 +59,19 @@
 <createdTime>2020-06-18 23:43:32 UTC</createdTime>
 <generatorID>53FD0C5C-D292-360F-8AF7-30244559C658</generatorID>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
-</engineerTo>
 <referedAttribute>4786686C-5DBB-201E-0836-E2DB56282C9E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO2" id="B6A0008E-799E-44FF-8B39-2398BFA906BA">
+<createdBy>wallace</createdBy>
+<createdTime>2020-06-19 01:25:19 UTC</createdTime>
+<generatorID>C42DFCE4-B926-0B8C-5E22-007E0D34E355</generatorID>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<referedAttribute>9D5BDBAC-1C5A-9E12-11DF-DF9782CEFE90</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -90,13 +84,11 @@
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-18 03:11:50 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="4D8B6AD5-02D4-2315-D2E0-37A406DB2036" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>BC49BF81-8B13-085A-4DBB-468ED7AB9C42</attributeRef>
 <attributeRef>B7D7F040-5166-DC8C-0586-84598C94A3D6</attributeRef>
+<attributeRef>B6A0008E-799E-44FF-8B39-2398BFA906BA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
