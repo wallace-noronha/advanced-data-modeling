@@ -3,18 +3,13 @@
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-19 00:56:39 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="AAB4764B-2330-DB2E-0E48-FE708CD09BC5" value="true"/>
-</engineerTo>
 <useSurrogateKey>true</useSurrogateKey>
-<sourcePk>15A68E1B-CB76-02AC-542A-8B6C2BC32EE6</sourcePk>
-<targetPk>ECF56A95-ECB8-5753-13A7-D553BEC2590E</targetPk>
-<identifying>true</identifying>
+<identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>228AF45D-71F1-86DE-559C-685B814CC511</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>04DF5E7C-4BD4-47C3-9874-915DC85B15C0</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
@@ -23,9 +18,6 @@
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-19 00:56:53 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="AAB4764B-2330-DB2E-0E48-FE708CD09BC5" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -36,9 +28,6 @@
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-19 00:56:59 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="AAB4764B-2330-DB2E-0E48-FE708CD09BC5" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,9 +38,6 @@
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-19 00:57:14 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<engineerTo>
-<item key="AAB4764B-2330-DB2E-0E48-FE708CD09BC5" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
