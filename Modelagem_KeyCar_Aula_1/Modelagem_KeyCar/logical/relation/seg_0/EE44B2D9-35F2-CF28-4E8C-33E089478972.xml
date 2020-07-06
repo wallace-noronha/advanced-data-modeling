@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VENDAv1" directorySegmentName="seg_0" id="EE44B2D9-35F2-CF28-4E8C-33E089478972">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 23:25:03 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4EE17592-88B1-8FBE-DFE3-BD171EF54D67</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>045FF58F-48DC-EBF1-49EA-37B2AAE049F2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="045FF58F-48DC-EBF1-49EA-37B2AAE049F2" name="FATO_SERIES">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:24:29 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_FATO" id="40C18DFC-F6F5-8DBA-A68C-F5941433CE23">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:25:06 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VENDA_2_PORTAS" id="AC5CB1F8-96F4-8930-1EEA-4CF3A59B34C4">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 23:16:33 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VENDAS_4_PORTAS" id="EE49468E-4B1B-409F-990C-2805D249871E">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 23:18:17 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VENDAS_REGIAO" id="5249E369-CD65-8B6D-149B-DEDA4080DB64">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 23:18:38 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEMPO_ENTREGA_PECA" id="DE5913F9-0E0B-CC1E-0DE8-9E9991B6327A">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 23:18:46 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_VENDA" id="7BB0B043-5908-2AEC-2BF0-8951249D6A7D">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 23:19:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="857F6931-0A92-0A8D-5422-0519D56869CF" name="FATO_SERIES PK">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 23:20:39 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40C18DFC-F6F5-8DBA-A68C-F5941433CE23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

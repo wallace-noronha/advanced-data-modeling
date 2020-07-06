@@ -14,7 +14,7 @@
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<attribute name="PRECO" id="17AAACCF-DB5B-F518-A687-808BB3FB99F8">
+<attribute name="VALOR" id="17AAACCF-DB5B-F518-A687-808BB3FB99F8">
 <createdBy>wallace</createdBy>
 <createdTime>2020-06-19 00:56:53 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>

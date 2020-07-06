@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EE17592-88B1-8FBE-DFE3-BD171EF54D67" name="DIM_VENDA">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:01:41 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_VENDA" id="4B77D2AE-79A4-A29A-F133-5E5D464CEC3C">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:33:24 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_PEDIDO" id="AF5034B9-0F82-A355-D6EB-74E0B9DAE1CA">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:15:47 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_VENDA" id="E1825502-FF34-4B26-5730-70014BC55AD1">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:07:40 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_ENTREGA" id="53A37119-2E54-CD2A-097F-7136E0F7B866">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:16:00 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEMPO_DE_ENTREGA" id="3E8C5AF9-A991-9657-F366-4C1C190D27A7">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:16:06 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

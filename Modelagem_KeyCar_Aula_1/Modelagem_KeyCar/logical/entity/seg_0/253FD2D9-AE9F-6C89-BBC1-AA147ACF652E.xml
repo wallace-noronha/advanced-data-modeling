@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="253FD2D9-AE9F-6C89-BBC1-AA147ACF652E" name="DIM_CARRO">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:02:03 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CARRO" id="0F161161-1A1C-4D43-ABDC-44DFDE234610">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:34:02 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARCA" id="642BE6D6-9B3A-098B-AC79-48CBF205C425">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:06:34 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MODELO" id="88DBDE37-A37A-CD47-3692-2A018F856551">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:06:29 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PORTAS" id="44CB0B54-2A62-E9FA-22B6-A214B744F506">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:06:42 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

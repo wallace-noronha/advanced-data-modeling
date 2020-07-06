@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DAA7FC0-26E7-9685-E110-4BA31572C5E3" name="DIM_FORNECEDOR">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:18:53 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_FORNECEDOR" id="4191A051-1F44-8D68-E6C1-7053439E0C9C">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:33:10 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="99EE95E9-9542-7501-8DB2-B48A8528FF14">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-05 22:18:59 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
