@@ -21,7 +21,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="VENDA_2_PORTAS" id="AC5CB1F8-96F4-8930-1EEA-4CF3A59B34C4">
+<Attribute name="QTD_VENDA" id="AC5CB1F8-96F4-8930-1EEA-4CF3A59B34C4">
 <createdBy>wallace</createdBy>
 <createdTime>2020-07-05 23:16:33 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
@@ -31,27 +31,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="VENDAS_4_PORTAS" id="EE49468E-4B1B-409F-990C-2805D249871E">
-<createdBy>wallace</createdBy>
-<createdTime>2020-07-05 23:18:17 UTC</createdTime>
-<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="VENDAS_REGIAO" id="5249E369-CD65-8B6D-149B-DEDA4080DB64">
-<createdBy>wallace</createdBy>
-<createdTime>2020-07-05 23:18:38 UTC</createdTime>
-<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TEMPO_ENTREGA_PECA" id="DE5913F9-0E0B-CC1E-0DE8-9E9991B6327A">
+<Attribute name="TEMPO_ENTREGA" id="DE5913F9-0E0B-CC1E-0DE8-9E9991B6327A">
 <createdBy>wallace</createdBy>
 <createdTime>2020-07-05 23:18:46 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>

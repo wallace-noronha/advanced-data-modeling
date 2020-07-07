@@ -44,13 +44,5 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TEMPO_DE_ENTREGA" id="3E8C5AF9-A991-9657-F366-4C1C190D27A7">
-<createdBy>wallace</createdBy>
-<createdTime>2020-07-05 22:16:06 UTC</createdTime>
-<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 </Entity>
