@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="045FF58F-48DC-EBF1-49EA-37B2AAE049F2" name="FATO_SERIES">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="045FF58F-48DC-EBF1-49EA-37B2AAE049F2" name="FATO_VENDA">
 <createdBy>wallace</createdBy>
 <createdTime>2020-07-05 22:24:29 UTC</createdTime>
 <ownerDesignName>Modelagem_KeyCar</ownerDesignName>
