@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="sub_view" objectID="65BC5AA3-4652-0ABE-D4F6-126ABDBE4E8A" name="AULA 2" visible="true"/>
-   <object objectType="main_view" objectID="5A2463EF-0514-1411-7CDE-54E9EBE990A1" name="Logical" visible="true"/>
+   <object objectType="main_view" objectID="5A2463EF-0514-1411-7CDE-54E9EBE990A1" name="Logical" visible="false"/>
    <object objectType="sub_view" objectID="94CB4782-0230-6E88-D0F2-E88C4F96BEED" name="AULA 1" visible="true"/>
+   <object objectType="sub_view" objectID="65BC5AA3-4652-0ABE-D4F6-126ABDBE4E8A" name="AULA 2" visible="true"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

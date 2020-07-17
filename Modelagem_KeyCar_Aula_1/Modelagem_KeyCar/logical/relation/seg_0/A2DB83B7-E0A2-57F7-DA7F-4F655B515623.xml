@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMPRA_VEICULO" directorySegmentName="seg_0" id="A2DB83B7-E0A2-57F7-DA7F-4F655B515623">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-17 23:21:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<sourcePk>11F7BEC3-F3E6-2E51-0399-26D1DF2C96EA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DD7DF106-3C6B-BBD0-3F20-8DEA58F06E21</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CC470996-6EA9-AF4E-AE99-C8953505A2B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

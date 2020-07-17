@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VENDA_PECAS" directorySegmentName="seg_0" id="172AE446-609B-6BBD-D142-47A200162EA0">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-17 23:21:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<sourcePk>3866348E-1F25-E4D6-94DC-29BD817D3DD2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5C9568AE-2660-51CD-B2D1-BDAA69A773D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6A75C592-100C-EB12-2E17-9BDF98E2189F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C9568AE-2660-51CD-B2D1-BDAA69A773D4" name="CLIENTE">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-17 23:21:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CLIENTE" id="F267C9EF-BE69-2A01-52AE-DDCEC8ABC152">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-17 23:21:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<importedID>AA991EFD-EB13-FA26-28EC-E7F473FEC124</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="0CD0AFF1-FA3C-9380-6A2B-738CD11FC53D">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-17 23:21:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<importedID>E863E408-8F5D-9409-BAC6-4D02A50E3FAC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SOBRENOME" id="DFF132FA-07A5-EE07-4F1B-2BCD11F5772B">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-17 23:21:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<importedID>7E402FF9-D087-5B3F-FD34-C00F50AB7CC5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF_CNPJ" id="BD0D847D-BA7E-9AB2-D54A-57B390A80560">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-17 23:21:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<importedID>B2C44D17-3595-021A-A72C-BAD23AB40569</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENDEREÇO" id="181AD859-DED8-33B4-4E2A-BAF7297A838A">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-17 23:21:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<importedID>7835BA77-156F-D4E6-C0F3-96D1C271B1DF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BAIRRO" id="84C0CC7C-2BEC-963E-CE86-6B8999845B0A">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-17 23:21:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<importedID>65A17220-D999-39F1-7229-644A08712BD6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CIDADE" id="FB3A9C2F-BFBC-5C7B-1F00-1EE477A4F61B">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-17 23:21:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<importedID>962870A0-E53D-EDEC-87CF-9024836D2D18</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEP" id="74ACB113-897D-B7DE-2A65-5CCA84774251">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-17 23:21:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<importedID>217C10B1-2446-DA78-7B53-7EECA287128E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FONE" id="D2EFC571-4C16-C31F-1264-001A326891FE">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-17 23:21:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<importedID>70B2E069-81F3-3565-2D0F-C5514097FA87</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_CLIENTE" id="C34E1452-6C99-494A-55E8-32DC4173AAD3">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-17 23:21:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<importedID>A30A62CB-4BB8-6A3B-5AD6-68648700AAD2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3866348E-1F25-E4D6-94DC-29BD817D3DD2" name="Fornecedor PK">
+<createdBy>wallace</createdBy>
+<createdTime>2020-07-17 23:21:30 UTC</createdTime>
+<ownerDesignName>Modelagem_KeyCar</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F267C9EF-BE69-2A01-52AE-DDCEC8ABC152</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
